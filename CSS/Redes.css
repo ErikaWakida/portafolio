@@ -1,0 +1,20 @@
+
+.footer__pieDePagina {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Shantell Sans';
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .imagenes__redes {
+        display: none;
+    }
+    .footer__pieDePagina {
+        padding: 10px 0 10px 0;
+       width: fit-content;
+       align-content: center;
+       font-size: 0.5em;
+    }
+}

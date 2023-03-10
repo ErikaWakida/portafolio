@@ -1,0 +1,15 @@
+
+.registrado {
+    background-image: url(/Imagenes/Bamboo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mensaje__enviado{
+    font-size: 5em;
+    color: #510a06;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Shantell Sans';
+}

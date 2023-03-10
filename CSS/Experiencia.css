@@ -1,0 +1,101 @@
+.experiencia {
+    margin-left: 10px;
+    width: calc(100% - 40px);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.experiencia__titulo {
+    font-size: 3.5em;
+    color: #510a06;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Shantell Sans';
+    width: calc(100% - 40px);
+    background: rgba(189, 133, 65, 0.537);
+}
+
+.experiencia__container {
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(189, 133, 65, 0.537);
+    margin: 40px 550px 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Shantell Sans';
+    width: 800px;
+ 
+
+}
+.experiencia__detalle {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 40px 0 0;
+    padding: 20px;
+}
+.experiencia__imagen {
+    padding: 20px;
+}
+
+.experiencia__boton--repositorio {
+    width: 120px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #B18742;
+    background-color: #510a06;
+    font-family: 'Shantell Sans';
+    border-color: #D5B741;
+}
+.experiencia__boton--demo {
+    width: 120px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #510a06;
+    background-color: #B18742; 
+    font-family: 'Shantell Sans';
+    border-color: #D5B741;
+}
+
+@media screen and (max-width: 1024px) {
+    .experiencia {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .experiencia__titulo {
+        width:fit-content;
+        font-size: 2.5em;
+        background:none;
+    }
+    .experiencia__container {
+        width: 560px;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .experiencia__detalle {
+        width: 350px;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .experiencia__imagen {
+        padding:0;
+    }
+  
+    
+}
